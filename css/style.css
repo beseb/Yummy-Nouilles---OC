@@ -2,6 +2,9 @@
     background-color: #f3f3f3;
     box-sizing: border-box;
 }
+body{
+    margin: 0%;
+}
 
 h1 {
     color: black;
@@ -18,32 +21,31 @@ h2 {
 }
 
 h3 {
-    font-family: 'Montserrat sans serif';
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
 }
 
-strong {
-    font-family: 'Montserrat sans serif';
+h4, .bodyHighlight {
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 600;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
 }
 
 #yummyRedAccueil {
     color: #d2483d;
 }
 
-#accueilUnderline,
-#menuUnderline,
-#contactUnderline {
+.redUnderline{
     text-decoration: underline;
     text-decoration-color: #d2483d;
 }
 
-p {
-    font-family: 'Montserrat sans serif';
-    font-size: 20px;
-    font-style: normal;
-}
+
 
 header {
     height: auto;
@@ -75,4 +77,74 @@ header {
 
 .navbar a {
     text-decoration: none;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 211px;
+}
+.CTA{
+    background-color: black;
+    color: white;
+    height: 65px;
+    width: 215px;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+}
+.btnContainer1{
+    margin-top: 33px;
+}
+#adressesUnderline, #savoirfaireUnderline, #reseauxUnderline, #contactUnderline{
+    display: flex;
+    justify-content: center;
+}
+.adresses{
+    display: flex;
+    flex-direction: column;
+  
+}
+.adresses ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.bannerCommandez{
+    height: 216px;
+    width:100%;
+    background-color: #d2483d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+.containerCommandez {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerCommandez p{
+    color: white;
+    background-color: #d2483d;
+}
+
+
+footer{
+    height: 216px;
+    width: auto;
+    background-color: black;
+}
+.footerIconesContainer{
+    display:flex;
+
+    flex-direction: row;
+    align-items: center;
+}
+footer img{
+    height: 36px;
+    width: 36px;
+    margin-left: 12px;
 }
