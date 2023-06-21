@@ -1,0 +1,78 @@
+* {
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    font-family: 'Bebas Neue';
+    font-size: 72px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0%;
+}
+
+h2 {
+    font-family: 'bebas neue';
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Montserrat sans serif';
+    font-size: 24px;
+}
+
+strong {
+    font-family: 'Montserrat sans serif';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#yummyRedAccueil {
+    color: #d2483d;
+}
+
+#accueilUnderline,
+#menuUnderline,
+#contactUnderline {
+    text-decoration: underline;
+    text-decoration-color: #d2483d;
+}
+
+p {
+    font-family: 'Montserrat sans serif';
+    font-size: 20px;
+    font-style: normal;
+}
+
+header {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 75px;
+    align-items: center;
+
+}
+
+.logoSmall {
+    height: 72px;
+    width: 72px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 16px;
+    margin: 0%;
+}
+
+.navbar .links {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+}
