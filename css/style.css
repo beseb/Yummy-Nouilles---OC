@@ -237,7 +237,7 @@ footer img {
 }
 .planAdressesContainer{
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: auto auto ;
     grid-column: 2 ;
     margin-left: 10%;   
     margin-top: 5%;
